@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101315">
+  <!-- RASYA DESIGN Motion Edition V4 -->
+  <meta name="description" content="RASYA DESIGN — desain visual untuk personal, UMKM, dan brand. Simple Design, Strong Impression.">
+  <title>RASYA DESIGN — Visual Design Studio / Motion Edition</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#101315;--bg2:#151a1d;--panel:#1b2226;--paper:#eceeea;--ink:#151b1e;--muted:#9da7aa;--muted-dark:#677276;--line:rgba(255,255,255,.13);--line-dark:rgba(16,24,27,.15);--cyan:#00b9e8;--cyan-soft:#8de7fa;--max:1200px;--ease:cubic-bezier(.2,.75,.25,1)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:var(--bg);color:#f4f5f2;font-family:Manrope,Arial,sans-serif;line-height:1.65;-webkit-font-smoothing:antialiased}body.menu-open{overflow:hidden}a{color:inherit;text-decoration:none}button{font:inherit}img{display:block;max-width:100%}.container{width:min(var(--max),calc(100% - 56px));margin:auto}.mono,.eyebrow,.micro{font-family:'DM Mono',monospace;letter-spacing:.13em;text-transform:uppercase}.eyebrow{display:inline-flex;align-items:center;gap:10px;color:var(--cyan);font-size:10px}.eyebrow:before{content:'';width:25px;height:1px;background:currentColor}.section{padding:112px 0}.section-head{display:flex;align-items:end;justify-content:space-between;gap:32px;margin-bottom:44px}.section-head h2{font:600 clamp(38px,5.3vw,66px)/1.02 'Space Grotesk',sans-serif;letter-spacing:-.06em;margin:14px 0 0}.section-head p{max-width:390px;color:var(--muted);font-size:13px;line-height:1.9;margin:0 0 4px}.accent{color:var(--cyan)}
+    /* header */
+    .header{position:sticky;top:0;z-index:50;background:rgba(16,19,21,.84);backdrop-filter:blur(18px);border-bottom:1px solid rgba(255,255,255,.08)}.nav{height:78px;display:flex;align-items:center;justify-content:space-between;gap:28px}.brand{display:flex;align-items:center;min-width:180px}.brand img{width:132px;height:46px;object-fit:contain;object-position:left center;background:#fff;border-radius:2px;padding:3px 8px}.brand-word{display:none;font:700 20px 'Space Grotesk';letter-spacing:-.06em}.brand-word b{color:var(--cyan)}.navlinks{display:flex;align-items:center;gap:32px}.navlinks a{font-size:11px;font-weight:700;color:#b8c0c1;transition:color .2s}.navlinks a:hover{color:#fff}.nav-cta,.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:13px 18px;border:1px solid var(--cyan);background:var(--cyan);color:#07171c;font-size:11px;font-weight:800;transition:transform .25s var(--ease),background .25s,border-color .25s,box-shadow .25s}.nav-cta:hover,.btn:hover{transform:translateY(-3px);background:var(--cyan-soft);border-color:var(--cyan-soft);box-shadow:0 12px 32px rgba(0,185,232,.16)}.btn-ghost{background:transparent;color:#f1f4f2;border-color:rgba(255,255,255,.28)}.btn-ghost:hover{color:#07171c;border-color:var(--cyan)}.menu-btn{display:none;width:42px;height:42px;border:1px solid var(--line);background:transparent;color:white;font-size:20px}
+    /* hero */
+    .hero{position:relative;overflow:hidden;min-height:700px;border-bottom:1px solid var(--line);isolation:isolate}.hero:before{content:'';position:absolute;z-index:-1;inset:0;background:radial-gradient(ellipse at 78% 36%,rgba(0,185,232,.12),transparent 36%),linear-gradient(115deg,transparent 45%,rgba(255,255,255,.018) 45.1%,transparent 45.3%)}.hero:after{content:'';position:absolute;z-index:-1;width:560px;height:560px;border:1px solid rgba(0,185,232,.12);border-radius:50%;right:-170px;top:85px;box-shadow:0 0 0 45px rgba(0,185,232,.018),0 0 0 90px rgba(0,185,232,.012)}.hero-grid{min-height:700px;display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:55px;padding:72px 0 88px}.hero-copy{position:relative;z-index:3}.hero-kicker{display:flex;align-items:center;gap:12px;color:#a9b5b8;font:10px 'DM Mono';letter-spacing:.16em;text-transform:uppercase}.live-dot{width:7px;height:7px;background:var(--cyan);border-radius:50%;box-shadow:0 0 0 5px rgba(0,185,232,.12);animation:pulse 2.4s ease-in-out infinite}.hero h1{max-width:690px;margin:25px 0 25px;font:600 clamp(54px,7.1vw,91px)/.94 'Space Grotesk',sans-serif;letter-spacing:-.075em}.hero h1 em{font-style:normal;color:var(--cyan)}.hero-copy>p{max-width:480px;color:#aeb8ba;font-size:14px;line-height:1.95;margin:0 0 29px}.hero-actions{display:flex;flex-wrap:wrap;gap:12px}.hero-meta{display:flex;align-items:center;gap:16px;margin-top:45px;color:#778286;font:9px 'DM Mono';letter-spacing:.13em;text-transform:uppercase}.hero-meta:before{content:'';width:34px;height:1px;background:#647176}.hero-stage{height:525px;position:relative;perspective:1400px;transform-style:preserve-3d}.stage-glow{position:absolute;width:350px;height:350px;left:50%;top:50%;transform:translate(-50%,-50%);background:rgba(0,185,232,.13);filter:blur(70px);border-radius:50%;pointer-events:none;animation:glow-breathe 5s ease-in-out infinite}.stage-ring{position:absolute;width:430px;height:430px;left:50%;top:50%;transform:translate(-50%,-50%) rotateX(66deg) rotateZ(-18deg);border:1px solid rgba(0,185,232,.22);border-radius:50%;box-shadow:0 0 0 26px rgba(0,185,232,.025),0 0 0 52px rgba(0,185,232,.018);animation:ring-drift 14s linear infinite}.poster{position:absolute;overflow:hidden;background:#222a2d;border:1px solid rgba(255,255,255,.28);box-shadow:0 34px 75px rgba(0,0,0,.45);transform-style:preserve-3d;will-change:transform}.poster img{width:100%;height:100%;object-fit:cover}.poster:after{content:'';position:absolute;inset:0;border:1px solid rgba(255,255,255,.08);pointer-events:none}.poster-main{width:260px;height:365px;left:50%;top:50%;z-index:3;transform:translate(-50%,-50%) rotateY(-8deg) rotateZ(3deg);animation:float-main 4.8s ease-in-out infinite}.poster-back{width:204px;height:286px;left:2%;top:22%;z-index:2;transform:rotateY(14deg) rotateZ(-8deg);animation:float-back 5.8s ease-in-out infinite}.poster-front{width:190px;height:267px;right:0;bottom:7%;z-index:4;transform:rotateY(-15deg) rotateZ(8deg);animation:float-front 5.2s ease-in-out infinite}.stage-caption{position:absolute;right:0;top:5%;z-index:5;padding:10px 13px;border:1px solid var(--line);background:rgba(16,19,21,.75);backdrop-filter:blur(12px);color:#bac5c7;font:9px 'DM Mono';letter-spacing:.13em;text-transform:uppercase;animation:caption-drift 5.5s ease-in-out infinite}.stage-index{position:absolute;left:0;bottom:3%;color:rgba(255,255,255,.17);font:700 75px/.85 'Space Grotesk';letter-spacing:-.1em}
+    /* strip */
+    .strip{border-bottom:1px solid var(--line);background:#14191b}.strip-inner{min-height:86px;display:flex;justify-content:space-between;align-items:center;gap:22px}.strip-label{font:9px 'DM Mono';letter-spacing:.15em;text-transform:uppercase;color:#778286}.strip-items{display:flex;flex-wrap:wrap;gap:30px}.strip-items span{font-size:10px;color:#c3cbcc}.strip-items span:before{content:'✳';color:var(--cyan);margin-right:8px}
+    /* portfolio */
+    .portfolio{background:var(--paper);color:var(--ink)}.portfolio .eyebrow{color:#007e9e}.portfolio .section-head p{color:#687276}.portfolio-grid{display:grid;grid-template-columns:repeat(12,1fr);gap:18px;align-items:start}.work{position:relative;display:block;overflow:hidden;background:#d9dfdf;aspect-ratio:4/5;border:0;padding:0;cursor:zoom-in;text-align:left;isolation:isolate}.work:nth-child(1),.work:nth-child(6){grid-column:span 3}.work:nth-child(2),.work:nth-child(7){grid-column:span 3;margin-top:42px}.work:nth-child(3),.work:nth-child(8){grid-column:span 3}.work:nth-child(4),.work:nth-child(9){grid-column:span 3;margin-top:42px}.work:nth-child(5),.work:nth-child(10){grid-column:span 3;margin-top:10px}.work img{width:100%;height:100%;object-fit:cover;transition:transform .8s var(--ease),filter .6s}.work:hover img{transform:scale(1.055);filter:saturate(1.08)}.work-cap{position:absolute;left:0;right:0;bottom:0;padding:44px 16px 15px;color:white;background:linear-gradient(transparent,rgba(0,0,0,.74));transform:translateY(5px);transition:transform .35s var(--ease)}.work:hover .work-cap{transform:translateY(0)}.work-cap small{display:block;color:#9deaff;font:9px 'DM Mono';letter-spacing:.14em;text-transform:uppercase}.work-cap strong{display:block;font:600 15px 'Space Grotesk';margin-top:3px}.portfolio-foot{display:flex;justify-content:space-between;gap:18px;margin-top:36px;color:#778286;font:9px 'DM Mono';letter-spacing:.13em;text-transform:uppercase}
+    /* services */
+    .services-grid{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line);border-left:1px solid var(--line)}.service{min-height:220px;padding:26px 26px 30px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);position:relative;transition:background .3s}.service:hover{background:rgba(0,185,232,.045)}.service-no{color:var(--cyan);font:10px 'DM Mono';letter-spacing:.14em}.service-arrow{position:absolute;right:25px;top:22px;color:#677276;font-size:17px;transition:transform .3s,color .3s}.service:hover .service-arrow{transform:translate(3px,-3px);color:var(--cyan)}.service h3{font:600 20px 'Space Grotesk';letter-spacing:-.035em;margin:35px 0 8px}.service p{max-width:300px;color:var(--muted);font-size:12px;line-height:1.85;margin:0}
+    /* about */
+    .about{background:#171d20;border-block:1px solid var(--line)}.about-grid{display:grid;grid-template-columns:.95fr 1.05fr;gap:90px;align-items:start}.about-copy h2{font:600 clamp(42px,5.2vw,65px)/1.02 'Space Grotesk';letter-spacing:-.06em;margin:17px 0}.about-copy p{max-width:470px;color:var(--muted);font-size:13px;line-height:2}.signature{display:inline-block;color:var(--cyan);font:10px 'DM Mono';letter-spacing:.13em;text-transform:uppercase;margin-top:17px}.benefits{border-top:1px solid var(--line)}.benefit{display:grid;grid-template-columns:42px 1fr;gap:17px;padding:21px 0;border-bottom:1px solid var(--line)}.benefit-no{font:10px 'DM Mono';color:var(--cyan);padding-top:4px}.benefit h3{margin:0 0 4px;font:600 16px 'Space Grotesk'}.benefit p{margin:0;color:var(--muted);font-size:11px}
+    /* pricing and contact */
+    .price-card{display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:center;padding:48px;border:1px solid rgba(0,185,232,.34);background:linear-gradient(115deg,rgba(0,185,232,.09),rgba(255,255,255,.018) 64%);position:relative;overflow:hidden}.price-card:after{content:'RD';position:absolute;right:15px;bottom:-85px;color:rgba(0,185,232,.045);font:700 260px/.8 'Space Grotesk';letter-spacing:-.13em;pointer-events:none}.price-card h2{font:600 clamp(34px,4.5vw,54px)/1.03 'Space Grotesk';letter-spacing:-.055em;margin:15px 0}.price-card p{max-width:540px;margin:0;color:var(--muted);font-size:12px;line-height:1.9}.price-side{position:relative;z-index:1;border-left:1px solid var(--line);padding-left:35px}.price-side small{display:block;color:var(--muted);font:9px 'DM Mono';letter-spacing:.14em;text-transform:uppercase}.price-number{display:block;font:600 clamp(38px,5vw,58px) 'Space Grotesk';letter-spacing:-.07em;margin:5px 0 17px}.price-number em{font:500 11px Manrope;color:var(--muted);letter-spacing:0;font-style:normal}.contact{padding-top:72px}.contact-box{padding:64px;background:var(--cyan);color:#07171c;position:relative;overflow:hidden}.contact-box:after{content:'RASYA';position:absolute;right:-30px;bottom:-75px;color:rgba(0,0,0,.055);font:700 180px/.85 'Space Grotesk';letter-spacing:-.09em}.contact-inner{position:relative;z-index:1;max-width:650px}.contact-inner .eyebrow{color:#075a70}.contact-inner h2{font:600 clamp(44px,6vw,72px)/.98 'Space Grotesk';letter-spacing:-.07em;margin:16px 0}.contact-inner p{max-width:480px;color:rgba(7,23,28,.75);font-size:13px}.contact-inner .btn{margin-top:18px;background:#101719;border-color:#101719;color:white}.contact-inner .btn:hover{background:#26353a;border-color:#26353a}
+    footer{padding:33px 0;background:#0b0e10}.footer-top{display:flex;justify-content:space-between;align-items:center;gap:24px}.footer-brand{font:700 19px 'Space Grotesk';letter-spacing:-.055em}.footer-brand span{color:var(--cyan)}.footer-tag{font-size:10px;color:#768084;margin-top:3px}.socials{display:flex;flex-wrap:wrap;gap:22px}.socials a{font-size:10px;font-weight:700;color:#b8c0c1;transition:color .2s}.socials a:hover{color:var(--cyan)}.footer-bottom{display:flex;justify-content:space-between;gap:15px;margin-top:24px;padding-top:20px;border-top:1px solid var(--line);color:#657075;font:9px 'DM Mono';letter-spacing:.1em;text-transform:uppercase}
+    /* interactions */
+    .reveal{opacity:0;transform:translateY(24px);transition:opacity .75s var(--ease),transform .75s var(--ease)}.reveal.in{opacity:1;transform:none}.lightbox{position:fixed;inset:0;z-index:100;display:none;align-items:center;justify-content:center;padding:25px;background:rgba(3,7,9,.94);backdrop-filter:blur(12px);cursor:zoom-out}.lightbox.open{display:flex}.lightbox img{max-width:min(90vw,950px);max-height:88vh;object-fit:contain;box-shadow:0 30px 100px rgba(0,0,0,.5)}.lightbox button{position:absolute;right:24px;top:20px;width:45px;height:45px;border:1px solid rgba(255,255,255,.35);border-radius:50%;background:transparent;color:white;font-size:25px;cursor:pointer}.scroll-line{position:fixed;z-index:60;left:0;top:0;width:0;height:2px;background:var(--cyan);box-shadow:0 0 12px rgba(0,185,232,.55)}
+    @keyframes pulse{0%,100%{box-shadow:0 0 0 4px rgba(0,185,232,.10)}50%{box-shadow:0 0 0 8px rgba(0,185,232,.02)}}
+    @keyframes ring-drift{from{transform:translate(-50%,-50%) rotateX(66deg) rotateZ(-18deg)}to{transform:translate(-50%,-50%) rotateX(66deg) rotateZ(342deg)}}
+    @keyframes float-main{0%,100%{transform:translate(-50%,-50%) translate3d(0,0,0) rotateY(-11deg) rotateX(2deg) rotateZ(3deg)}50%{transform:translate(-50%,-50%) translate3d(0,-22px,42px) rotateY(8deg) rotateX(-3deg) rotateZ(-1deg)}}
+    @keyframes float-back{0%,100%{transform:translate3d(0,0,0) rotateY(17deg) rotateX(1deg) rotateZ(-9deg)}50%{transform:translate3d(-8px,16px,20px) rotateY(-4deg) rotateX(-3deg) rotateZ(-3deg)}}
+    @keyframes float-front{0%,100%{transform:translate3d(0,0,0) rotateY(-17deg) rotateX(2deg) rotateZ(9deg)}50%{transform:translate3d(8px,-17px,28px) rotateY(7deg) rotateX(-2deg) rotateZ(3deg)}}
+    @keyframes glow-breathe{0%,100%{opacity:.55;transform:translate(-50%,-50%) scale(.88)}50%{opacity:1;transform:translate(-50%,-50%) scale(1.13)}}
+    @keyframes caption-drift{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}
+    @media(max-width:950px){.hero-grid{gap:24px}.hero-stage{transform:scale(.9);transform-origin:center right;margin-left:-35px}.about-grid{gap:45px}.work:nth-child(n){margin-top:0}.work{grid-column:span 4!important}.work:nth-child(3n+2){margin-top:30px}.price-card{padding:35px}}
+    @media(max-width:700px){.container{width:calc(100% - 36px)}.section{padding:78px 0}.section-head{display:block;margin-bottom:30px}.section-head p{margin-top:16px}.nav{height:68px}.brand{min-width:0}.brand img{width:117px;height:40px}.nav-cta{display:none}.menu-btn{display:block}.navlinks{position:fixed;inset:68px 0 0;z-index:55;display:flex;flex-direction:column;justify-content:center;align-items:stretch;gap:0;padding:25px 32px;background:rgba(12,16,18,.98);transform:translateX(100%);transition:transform .3s}.navlinks.open{transform:translateX(0)}.navlinks a{font:600 25px 'Space Grotesk';padding:17px 0;border-bottom:1px solid var(--line)}.hero{min-height:0}.hero-grid{min-height:0;grid-template-columns:1fr;gap:0;padding:70px 0 48px}.hero h1{font-size:clamp(53px,14vw,76px)}.hero-copy>p{font-size:13px}.hero-meta{margin-top:30px}.hero-stage{height:400px;margin:18px 0 -20px;transform:scale(.84);transform-origin:top center}.poster-main{width:215px;height:300px}.poster-back{width:164px;height:230px;left:0;top:22%}.poster-front{width:153px;height:215px;right:0;bottom:4%}.stage-ring{width:350px;height:350px}.stage-caption{right:0;top:0}.stage-index{font-size:60px;bottom:0}.strip-inner{display:block;padding:22px 0}.strip-items{gap:12px 18px;margin-top:12px}.strip-items span{font-size:9px}.portfolio-grid{grid-template-columns:repeat(2,1fr);gap:11px}.work{grid-column:span 1!important}.work:nth-child(3n+2){margin-top:0}.work:nth-child(even){margin-top:22px}.work-cap{padding:32px 10px 11px}.work-cap strong{font-size:12px}.work-cap small{font-size:8px}.portfolio-foot{display:block;line-height:2.1}.services-grid{grid-template-columns:1fr 1fr}.service{min-height:195px;padding:20px 17px}.service h3{font-size:17px;margin-top:28px}.service p{font-size:10px}.about-grid{grid-template-columns:1fr;gap:28px}.price-card{grid-template-columns:1fr;gap:25px;padding:27px 22px}.price-side{border-left:0;border-top:1px solid var(--line);padding:22px 0 0}.contact{padding-top:40px}.contact-box{padding:42px 24px}.contact-box:after{font-size:110px;bottom:-42px}.footer-top{display:block}.socials{margin-top:20px;gap:16px}.footer-bottom{display:block;line-height:2}}
+    @media(max-width:390px){.hero-actions .btn{width:100%}.services-grid{grid-template-columns:1fr}.hero-stage{transform:scale(.76);margin-bottom:-52px}}
+    /* V4: deliberately visible motion design. These animations run without JavaScript. */
+    .hero-stage{transform-style:preserve-3d;}
+    .poster{backface-visibility:hidden;will-change:transform,filter;}
+    .poster-main{animation:main-pop-orbit 6.2s cubic-bezier(.45,0,.2,1) infinite;}
+    .poster-back{animation:back-swing 5.1s ease-in-out infinite;}
+    .poster-front{animation:front-swing 4.6s ease-in-out infinite;}
+    .stage-ring{animation:ring-spin-fast 9s linear infinite;}
+    .stage-glow{animation:glow-pulse-strong 3.6s ease-in-out infinite;}
+    .stage-caption{animation:caption-pop 3.4s ease-in-out infinite;}
+    .hero-copy .hero-kicker{animation:copy-enter .7s .05s both cubic-bezier(.2,.8,.2,1)}
+    .hero-copy h1{animation:copy-enter .9s .18s both cubic-bezier(.2,.8,.2,1)}
+    .hero-copy>p{animation:copy-enter .8s .32s both cubic-bezier(.2,.8,.2,1)}
+    .hero-actions{animation:copy-enter .8s .46s both cubic-bezier(.2,.8,.2,1)}
+    .hero-meta{animation:copy-enter .8s .58s both cubic-bezier(.2,.8,.2,1)}
+    .poster-main:hover,.poster-back:hover,.poster-front:hover{filter:drop-shadow(0 28px 28px rgba(0,185,232,.22)) brightness(1.06)}
+    .poster img{transition:filter .25s ease,transform .5s cubic-bezier(.2,.8,.2,1)}
+    .poster:hover img{transform:scale(1.045)}
+    @keyframes copy-enter{0%{opacity:0;transform:translate3d(0,34px,0);filter:blur(7px)}100%{opacity:1;transform:translate3d(0,0,0);filter:blur(0)}}
+    @keyframes main-pop-orbit{
+      0%{opacity:0;transform:translate(-50%,-50%) translate3d(0,68px,-110px) rotateX(38deg) rotateY(-38deg) rotateZ(-14deg) scale(.72);filter:blur(9px) drop-shadow(0 0 0 rgba(0,185,232,0))}
+      12%{opacity:1;transform:translate(-50%,-50%) translate3d(0,-26px,65px) rotateX(-8deg) rotateY(13deg) rotateZ(5deg) scale(1.07);filter:blur(0) drop-shadow(0 24px 24px rgba(0,185,232,.18))}
+      22%{transform:translate(-50%,-50%) translate3d(0,-18px,42px) rotateX(5deg) rotateY(-10deg) rotateZ(-3deg) scale(1.02);filter:blur(0)}
+      42%{transform:translate(-50%,-50%) translate3d(0,8px,8px) rotateX(-3deg) rotateY(8deg) rotateZ(2deg) scale(1);filter:blur(0)}
+      62%{transform:translate(-50%,-50%) translate3d(0,-18px,38px) rotateX(4deg) rotateY(-8deg) rotateZ(-2deg) scale(1.025);filter:blur(0)}
+      82%{transform:translate(-50%,-50%) translate3d(0,4px,0) rotateX(-2deg) rotateY(5deg) rotateZ(1deg) scale(1);filter:blur(0)}
+      100%{opacity:1;transform:translate(-50%,-50%) translate3d(0,68px,-110px) rotateX(38deg) rotateY(-38deg) rotateZ(-14deg) scale(.72);filter:blur(9px) drop-shadow(0 0 0 rgba(0,185,232,0))}
+    }
+    @keyframes back-swing{
+      0%,100%{transform:translate3d(-8px,4px,-10px) rotateY(23deg) rotateX(5deg) rotateZ(-12deg)}
+      50%{transform:translate3d(14px,-22px,34px) rotateY(-12deg) rotateX(-5deg) rotateZ(5deg)}
+    }
+    @keyframes front-swing{
+      0%,100%{transform:translate3d(8px,3px,12px) rotateY(-22deg) rotateX(4deg) rotateZ(12deg)}
+      50%{transform:translate3d(-14px,-25px,46px) rotateY(14deg) rotateX(-6deg) rotateZ(-6deg)}
+    }
+    @keyframes ring-spin-fast{from{transform:translate(-50%,-50%) rotateX(66deg) rotateZ(-18deg)}to{transform:translate(-50%,-50%) rotateX(66deg) rotateZ(342deg)}}
+    @keyframes glow-pulse-strong{0%,100%{opacity:.36;transform:translate(-50%,-50%) scale(.72)}50%{opacity:1;transform:translate(-50%,-50%) scale(1.22)}}
+    @keyframes caption-pop{0%,100%{transform:translate3d(0,0,18px) rotateZ(0)}50%{transform:translate3d(0,-15px,32px) rotateZ(-2deg)}}
+    @media(max-width:700px){
+      .poster-main{animation:main-pop-mobile 6.2s cubic-bezier(.45,0,.2,1) infinite}
+      @keyframes main-pop-mobile{
+        0%{opacity:0;transform:translate(-50%,-50%) translate3d(0,42px,-70px) rotateX(30deg) rotateY(-32deg) rotateZ(-12deg) scale(.75);filter:blur(8px)}
+        14%{opacity:1;transform:translate(-50%,-50%) translate3d(0,-18px,40px) rotateX(-6deg) rotateY(10deg) rotateZ(4deg) scale(1.06);filter:blur(0)}
+        50%{transform:translate(-50%,-50%) translate3d(0,4px,10px) rotateX(4deg) rotateY(-7deg) rotateZ(-2deg) scale(1)}
+        78%{transform:translate(-50%,-50%) translate3d(0,-14px,28px) rotateX(-3deg) rotateY(7deg) rotateZ(2deg) scale(1.025);filter:blur(0)}
+        100%{opacity:1;transform:translate(-50%,-50%) translate3d(0,42px,-70px) rotateX(30deg) rotateY(-32deg) rotateZ(-12deg) scale(.75);filter:blur(8px)}
+      }
+    }
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none}}
+  </style>
+</head>
+<body>
+  <div class="scroll-line" id="scrollLine"></div>
+  <header class="header"><div class="container nav">
+    <a class="brand" href="#home" aria-label="RASYA DESIGN beranda"><img id="brandLogo" src="assets/LOGO/WhatsApp%20Image%202026-11-07%20at%2016.41.29.jpeg" alt="Logo Rasya Design"><span class="brand-word">RASYA<span><b>.</b>DESIGN</span></span></a>
+    <nav class="navlinks" id="navLinks"><a href="#home">Beranda</a><a href="#karya">Karya</a><a href="#layanan">Layanan</a><a href="#tentang">Tentang</a><a href="#kontak">Kontak</a></nav>
+    <a class="nav-cta" href="https://wa.me/6281958882911?text=Halo%20RASYA%20DESIGN%2C%20saya%20ingin%20memulai%20proyek%20desain." target="_blank" rel="noopener">Mulai Proyek ↗</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Buka menu" aria-expanded="false">☰</button>
+  </div></header>
+  <main>
+    <section class="hero" id="home"><div class="container hero-grid">
+      <div class="hero-copy reveal"><div class="hero-kicker"><span class="live-dot"></span> Independent Visual Design Studio</div>
+        <h1>Desain yang<br>membuat brand<br><em>diingat.</em></h1>
+        <p>Visual yang kuat bukan sekadar terlihat menarik. Ia menyampaikan pesan, membangun karakter, dan membuat brand lebih mudah dikenali.</p>
+        <div class="hero-actions"><a class="btn" href="https://wa.me/6281958882911?text=Halo%20Rasya%20Design%2C%20saya%20ingin%20konsultasi%20desain." target="_blank" rel="noopener">Konsultasi via WhatsApp ↗</a><a class="btn btn-ghost" href="#karya">Lihat karya ↓</a></div>
+        <div class="hero-meta">Simple Design, Strong Impression</div>
+      </div>
+      <div class="hero-stage reveal" id="heroStage" aria-label="Pratinjau karya RASYA DESIGN">
+        <div class="stage-glow"></div><div class="stage-ring"></div><div class="stage-caption">Selected visual / 2026</div>
+        <div class="poster poster-back"><img src="assets/POSTER/WhatsApp%20Image%202026-11-07%20at%2016.48.13.jpeg" alt="Contoh karya poster" fetchpriority="high"></div>
+        <div class="poster poster-main"><img src="assets/POSTER/WhatsApp%20Image%202026-11-07%20at%2016.48.16.jpeg" alt="Karya poster utama" fetchpriority="high"></div>
+        <div class="poster poster-front"><img src="assets/POSTER/WhatsApp%20Image%202026-11-07%20at%2016.48.18.jpeg" alt="Contoh karya desain lainnya" fetchpriority="high"></div>
+        <div class="stage-index">RD / 01</div>
+      </div>
+    </div></section>
+    <div class="strip"><div class="container strip-inner"><div class="strip-label">Design with purpose</div><div class="strip-items"><span>Original Concept</span><span>Detail Focused</span><span>Made to Connect</span></div></div></div>
+    <section class="section portfolio" id="karya"><div class="container">
+      <div class="section-head reveal"><div><span class="eyebrow">Portfolio / Selected works</span><h2>Ide berbeda.<br><span style="color:#0084a5">Karakter visual kuat.</span></h2></div><p>Jelajahi karya RASYA DESIGN. Setiap desain disusun untuk menyampaikan pesan dengan cara yang jelas dan berkarakter.</p></div>
+      <div class="portfolio-grid">
+        <button class="work reveal" type="button"><img src="assets/POSTER/WhatsApp%20Image%202026-11-07%20at%2016.48.13.jpeg" alt="Karya poster 01" loading="lazy"><span class="work-cap"><small>Poster design / 01</small><strong>Visual composition</strong></span></button>
+        <button class="work reveal" type="button"><img src="assets/POSTER/WhatsApp%20Image%202026-11-07%20at%2016.48.13%281%29.jpeg" alt="Karya poster 02" loading="lazy"><span class="work-cap"><small>Poster design / 02</small><strong>Visual composition</strong></span></button>
+        <button class="work reveal" type="button"><img src="assets/POSTER/WhatsApp%20Image%202026-11-07%20at%2016.48.15.jpeg" alt="Karya poster 03" loading="lazy"><span class="work-cap"><small>Poster design / 03</small><strong>Visual composition</strong></span></button>
+        <button class="work reveal" type="button"><img src="assets/POSTER/WhatsApp%20Image%202026-11-07%20at%2016.48.16.jpeg" alt="Karya poster 04" loading="lazy"><span class="work-cap"><small>Poster design / 04</small><strong>Visual composition</strong></span></button>
+        <button class="work reveal" type="button"><img src="assets/POSTER/WhatsApp%20Image%202026-11-07%20at%2016.48.16%281%29.jpeg" alt="Karya poster 05" loading="lazy"><span class="work-cap"><small>Poster design / 05</small><strong>Visual composition</strong></span></button>
+        <button class="work reveal" type="button"><img src="assets/POSTER/WhatsApp%20Image%202026-11-07%20at%2016.48.17.jpeg" alt="Karya poster 06" loading="lazy"><span class="work-cap"><small>Poster design / 06</small><strong>Visual composition</strong></span></button>
+        <button class="work reveal" type="button"><img src="assets/POSTER/WhatsApp%20Image%202026-11-07%20at%2016.48.17%281%29.jpeg" alt="Karya poster 07" loading="lazy"><span class="work-cap"><small>Poster design / 07</small><strong>Visual composition</strong></span></button>
+        <button class="work reveal" type="button"><img src="assets/POSTER/WhatsApp%20Image%202026-11-07%20at%2016.48.17%282%29.jpeg" alt="Karya poster 08" loading="lazy"><span class="work-cap"><small>Poster design / 08</small><strong>Visual composition</strong></span></button>
+        <button class="work reveal" type="button"><img src="assets/POSTER/WhatsApp%20Image%202026-11-07%20at%2016.48.17%283%29.jpeg" alt="Karya poster 09" loading="lazy"><span class="work-cap"><small>Poster design / 09</small><strong>Visual composition</strong></span></button>
+        <button class="work reveal" type="button"><img src="assets/POSTER/WhatsApp%20Image%202026-11-07%20at%2016.48.18.jpeg" alt="Karya poster 10" loading="lazy"><span class="work-cap"><small>Poster design / 10</small><strong>Visual composition</strong></span></button>
+      </div><div class="portfolio-foot"><span>10 karya ditampilkan</span><span>Visual speaks before words do ↗</span></div>
+    </div></section>
+    <section class="section" id="layanan"><div class="container"><div class="section-head reveal"><div><span class="eyebrow">What we do</span><h2>Visual yang tepat<br>untuk <span class="accent">setiap kebutuhan.</span></h2></div><p>Dari materi promosi sampai konten digital, kami membantu ide tampil lebih jelas dan siap menjangkau audiens.</p></div>
+      <div class="services-grid">
+        <article class="service reveal"><span class="service-no">01 / DESIGN</span><span class="service-arrow">↗</span><h3>Desain Poster</h3><p>Visual promosi, event, produk, dan konten informatif.</p></article>
+        <article class="service reveal"><span class="service-no">02 / SOCIAL</span><span class="service-arrow">↗</span><h3>Feed Instagram</h3><p>Konten media sosial yang konsisten dan sesuai karakter brand.</p></article>
+        <article class="service reveal"><span class="service-no">03 / PRINT</span><span class="service-arrow">↗</span><h3>Banner & Spanduk</h3><p>Materi cetak yang jelas, terbaca, dan menarik perhatian.</p></article>
+        <article class="service reveal"><span class="service-no">04 / BUSINESS</span><span class="service-arrow">↗</span><h3>Menu Cafe & UMKM</h3><p>Menu dan materi usaha yang membuat produk tampil lebih menarik.</p></article>
+        <article class="service reveal"><span class="service-no">05 / CONTENT</span><span class="service-arrow">↗</span><h3>Desain Thumbnail</h3><p>Thumbnail yang menarik perhatian dan membantu konten tampil lebih menonjol.</p></article>
+        <article class="service reveal"><span class="service-no">07 / BRANDING</span><span class="service-arrow">↗</span><h3>Desain Logo</h3><p>Identitas visual yang dirancang untuk mewakili karakter dan keunikan brand.</p></article>
+        <article class="service reveal"><span class="service-no">06 / CUSTOM</span><span class="service-arrow">↗</span><h3>Desain Lainnya</h3><p>Punya kebutuhan khusus? Ceritakan ide dan kebutuhan proyekmu.</p></article>
+      </div>
+    </div></section>
+    <section class="section about" id="tentang"><div class="container about-grid">
+      <div class="about-copy reveal"><span class="eyebrow">Why Rasya Design</span><h2>Detail kecil.<br><span class="accent">Dampak besar.</span></h2><p>RASYA DESIGN membantu personal, UMKM, dan bisnis menerjemahkan ide menjadi visual yang sederhana, kuat, dan mudah diingat. Karena desain yang baik bukan hanya terlihat bagus—tetapi juga menyampaikan pesan.</p><span class="signature">Simple Design, Strong Impression.</span></div>
+      <div class="benefits reveal"><div class="benefit"><span class="benefit-no">01</span><div><h3>Konsep original</h3><p>Desain disusun mengikuti kebutuhan dan karakter setiap proyek.</p></div></div><div class="benefit"><span class="benefit-no">02</span><div><h3>Revisi sesuai kesepakatan</h3><p>Penyesuaian agar hasil akhir semakin dekat dengan arahan.</p></div></div><div class="benefit"><span class="benefit-no">03</span><div><h3>Pengerjaan responsif</h3><p>Proses komunikatif dengan target waktu yang dibicarakan di awal.</p></div></div><div class="benefit"><span class="benefit-no">04</span><div><h3>Konsultasi gratis</h3><p>Diskusikan ide dan kebutuhan desain sebelum memulai proyek.</p></div></div></div>
+    </div></section>
+    <section class="section" id="harga"><div class="container"><div class="price-card reveal"><div><span class="eyebrow">Start a project</span><h2>Mulai dari ide.<br>Berakhir dengan kesan.</h2><p>Setiap kebutuhan memiliki tingkat pengerjaan yang berbeda. Hubungi kami untuk konsultasi dan penawaran sesuai jenis desain, detail, serta tenggat proyek.</p></div><div class="price-side"><small>Harga mulai dari</small><strong class="price-number">Rp5.000 <em>/ proyek</em></strong><a class="btn" href="https://wa.me/6281958882911?text=Halo%20Rasya%20Design%2C%20saya%20ingin%20tanya%20harga%20desain." target="_blank" rel="noopener">Tanya harga ↗</a></div></div></div></section>
+    <section class="section contact" id="kontak"><div class="container"><div class="contact-box reveal"><div class="contact-inner"><span class="eyebrow">Let's make it happen</span><h2>Punya ide?<br>Mari wujudkan.</h2><p>Ceritakan kebutuhan desainmu. Kita mulai dari obrolan sederhana, lalu ubah ide menjadi visual yang punya kesan.</p><a class="btn" href="https://wa.me/6281958882911?text=Halo%20Rasya%20Design%2C%20saya%20ingin%20memulai%20proyek%20desain." target="_blank" rel="noopener">Hubungi RASYA DESIGN ↗</a></div></div></div></section>
+  </main>
+  <footer><div class="container"><div class="footer-top"><div><div class="footer-brand">RASYA<span>.</span>DESIGN</div><div class="footer-tag">Simple Design, Strong Impression.</div></div><div class="socials"><a href="https://www.instagram.com/rasyadesign28/" target="_blank" rel="noopener">Instagram ↗</a><a href="https://www.tiktok.com/@rasya.design" target="_blank" rel="noopener">TikTok ↗</a><a href="mailto:rasyafawwas21@gmail.com">Email ↗</a><a href="https://wa.me/6281958882911?text=Halo%20RASYA%20DESIGN%2C%20saya%20ingin%20konsultasi%20desain." target="_blank" rel="noopener">WhatsApp ↗</a></div></div><div class="footer-bottom"><span>© <span id="year"></span> RASYA DESIGN. All rights reserved.</span><span>Designed with intention.</span></div></div></footer>
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Tampilan karya"><button id="lightboxClose" aria-label="Tutup">×</button><img id="lightboxImg" alt="Karya desain"></div>
+  <script>
+    // Fallback logo agar tetap ada identitas jika gambar logo pertama tidak tersedia.
+    const logo = document.getElementById('brandLogo');
+    logo.addEventListener('error', function(){
+      if(!this.dataset.fallback){this.dataset.fallback='1';this.src='assets/LOGO/WhatsApp%20Image%202026-11-07%20at%2016.41.29%281%29.jpeg';}
+      else{this.style.display='none';document.querySelector('.brand-word').style.display='block';}
+    });
+    // Mobile navigation.
+    const menuBtn=document.getElementById('menuBtn'), navLinks=document.getElementById('navLinks');
+    function closeMenu(){navLinks.classList.remove('open');document.body.classList.remove('menu-open');menuBtn.setAttribute('aria-expanded','false');menuBtn.textContent='☰';}
+    menuBtn.addEventListener('click',()=>{const open=navLinks.classList.toggle('open');document.body.classList.toggle('menu-open',open);menuBtn.setAttribute('aria-expanded',String(open));menuBtn.textContent=open?'×':'☰';});
+    navLinks.querySelectorAll('a').forEach(a=>a.addEventListener('click',closeMenu));
+    // Reveal elements when they enter the viewport.
+    const revealItems=document.querySelectorAll('.reveal');
+    if('IntersectionObserver' in window){const io=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('in');io.unobserve(entry.target);}}),{threshold:.12});revealItems.forEach(el=>io.observe(el));}else revealItems.forEach(el=>el.classList.add('in'));
+    // Subtle 3D pointer tilt on desktop; disabled on touch screens.
+    const stage=document.getElementById('heroStage');
+    if(stage && window.matchMedia('(pointer:fine)').matches){
+      stage.addEventListener('pointermove',e=>{const r=stage.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;stage.style.transform=`rotateX(${(-y*4).toFixed(2)}deg) rotateY(${(x*5).toFixed(2)}deg)`;});
+      stage.addEventListener('pointerleave',()=>{stage.style.transform='rotateX(0) rotateY(0)';});
+    }
+    // Portfolio lightbox.
+    const lightbox=document.getElementById('lightbox'), lightboxImg=document.getElementById('lightboxImg');
+    document.querySelectorAll('.work').forEach(card=>card.addEventListener('click',()=>{const img=card.querySelector('img');lightboxImg.src=img.src;lightboxImg.alt=img.alt;lightbox.classList.add('open');document.body.style.overflow='hidden';}));
+    function closeLightbox(){lightbox.classList.remove('open');lightboxImg.src='';document.body.style.overflow='';}
+    document.getElementById('lightboxClose').addEventListener('click',closeLightbox);lightbox.addEventListener('click',e=>{if(e.target===lightbox)closeLightbox();});
+    document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeLightbox();closeMenu();}});
+    // Reading progress line.
+    const scrollLine=document.getElementById('scrollLine');
+    function updateProgress(){const max=document.documentElement.scrollHeight-window.innerHeight;scrollLine.style.width=(max>0?window.scrollY/max*100:0)+'%';}
+    window.addEventListener('scroll',updateProgress,{passive:true});updateProgress();
+    document.getElementById('year').textContent=new Date().getFullYear();
+  </script>
+</body>
+</html>
